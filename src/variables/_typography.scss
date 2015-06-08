@@ -1,0 +1,15 @@
+// ---------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------
+// This document defines all typography variables.
+
+@include set( 'typography',
+    (
+
+    )
+);
+
+@function typography( $keys )
+{
+    @return get( 'typography.#{$keys}' );
+}
